@@ -11,7 +11,8 @@ public class TopicService {
 	
 	private List<Topic> topics = new ArrayList<>(Arrays.asList(new Topic("Architect", "Ted Mosby", "passionate builder")
 			,new Topic("Anchor", "Robin Schwabarsky", "passionate news reporter"),
-			new Topic("Lawyer", "marshall Ericson", "Passionate legal emlpoyee")));
+			new Topic("Lawyer", "marshall Ericson", "Passionate legal emlpoyee"),
+			new Topic("Teacher", "Lilly Ericson", "Passionate KinderGarten Teacher")));
 	
 	public List<Topic> getAllTopics (){
 		return topics;
